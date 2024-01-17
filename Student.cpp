@@ -53,3 +53,9 @@ void Student::PrintInfo()
 	cout << "Year:" << getYear() << endl;
 
 }
+
+void Student::ChangeMajor(string m)
+{
+
+
+}
