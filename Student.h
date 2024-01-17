@@ -19,9 +19,9 @@ public:
 	// setters and getters 
 
 	// set id 
-	void setID(string id); 
+	void setID(string id); // in 
 	// get id 
-	string getID(); 
+	string getID(); // out 
 
 	void setYear(int year);
 	int getYear();
