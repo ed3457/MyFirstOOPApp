@@ -56,6 +56,14 @@ void Student::PrintInfo()
 
 void Student::ChangeMajor(string m)
 {
+	if (getYear() >= 2)
+	{
+		setMajor(m);
+	}
+	else
+	{
+		cout << "You cannot change the major before your 2nd year!\n";
 
+	}
 
 }
