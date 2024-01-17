@@ -1,6 +1,7 @@
 #include "Student.h"
 // details 
-
+#include <iostream>
+using namespace std; 
 void Student::setID(string i)
 {   // you can do validation here 
 	id = i;
@@ -42,4 +43,13 @@ void Student::setYear(int y)
 int Student::getYear()
 {
 	return year;
+}
+
+void Student::PrintInfo()
+{
+	cout << "Name:" << getName() << endl;
+	cout << "Major:" << getMajor() << endl;
+	cout << "ID:" << getID() << endl;
+	cout << "Year:" << getYear() << endl;
+
 }
