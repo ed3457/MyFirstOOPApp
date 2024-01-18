@@ -67,3 +67,21 @@ void Student::ChangeMajor(string m)
 	}
 
 }
+
+Student::Student()
+{
+	setID("Not set yet");
+	setName("Not set yet");
+	setMajor("Not set yet");
+	setYear(1);
+
+}
+
+Student::Student(string i, string n, string m, int y)
+{
+	setID(i);
+	setMajor(m);
+	setName(n);
+	setYear(y);
+
+}

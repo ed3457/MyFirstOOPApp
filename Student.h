@@ -32,6 +32,11 @@ public:
 	void setMajor(string major);
 	string getMajor();
 
+	// Constructors 
+	// default constructor 
+	Student();
 
+	//Overloaded constructor
+	Student(string i, string n, string m, int y);
 };
 
